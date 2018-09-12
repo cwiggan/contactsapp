@@ -5,6 +5,10 @@
   text-transform: uppercase;
   font-size: 1.5em;
 }
-h1 span{
+h1 span, .jumbotron h1{
   color: var(--blue);
+}
+.jumbotron{
+  background-color: transparent;
+  border: 1px solid rgba(0,0,0,.125);
 }
