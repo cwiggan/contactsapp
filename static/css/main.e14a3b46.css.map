@@ -1,1 +1,0 @@
-{"version":3,"sources":["index.css"],"names":[],"mappings":"AACA,aACE,gBAEA,yBACA,eAAiB,CAEnB,qBAJE,iBAAmB","file":"static/css/main.e14a3b46.css","sourcesContent":["\n.card-header{\n  background: none;\n  color: var(--blue);\n  text-transform: uppercase;\n  font-size: 1.5em;\n}\nh1 span{\n  color: var(--blue);\n}\n\n\n// WEBPACK FOOTER //\n// ./src/index.css"],"sourceRoot":""}
