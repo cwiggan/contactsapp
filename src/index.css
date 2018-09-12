@@ -1,0 +1,10 @@
+
+.card-header{
+  background: none;
+  color: var(--blue);
+  text-transform: uppercase;
+  font-size: 1.5em;
+}
+h1 span{
+  color: var(--blue);
+}
