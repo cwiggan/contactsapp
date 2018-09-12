@@ -31,13 +31,12 @@ class Contact extends  Component {
                             <div className="card-header">
                                 <h3 className="float-left">
                                     {name} 
-                                    <i onClick={this.showContactClick} className="fas fa-sort-down" style={{ cursoe: 'pointer' }}></i>
+                                    <i onClick={this.showContactClick} className="fas fa-sort-down ml-1" style={{ cursoe: 'pointer' }}></i>
                                 </h3>
-                                <div className="float-righ">
+                                <div className="float-right">
                                         <button  onClick={this.onDeleteClick.bind(this, id, dispatch)} type="button" className="btn btn-primary btn-sm"><i className="fas fa-times ml-auto" style={{ cursoe: 'pointer' }}></i></button> 
-                                         
                                          <Link to={`edit/${id}`}>
-                                            <button className="btn btn-primary btn-sm"><i className="fas fa-pencil-alt"></i></button>
+                                            <button className="btn btn-primary btn-sm ml-1"><i className="fas fa-pencil-alt"></i></button>
                                          </Link>
                                 </div>
                             </div>
